@@ -1,0 +1,187 @@
+#title {background-color: #ff4c68;
+color: #fff;
+}
+
+.title-container {
+  margin-bottom: -25px;
+}
+.navbar {
+  padding: 1%;
+  padding-right: 10%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+  font-family: "Montserrat";
+}
+.nav-link {
+font-size: 1.2rem;
+font-family: "Ubuntu";
+font-weight: lighter;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  padding-bottom: 2.5rem;
+}
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+
+.row {
+  padding-left: 1.15rem;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+.col-lg-6 {
+  padding: 2.5rem 0.5rem;
+}
+
+.download-button {
+  margin: 5% 3% 3% 0;
+  font-family: "Ubuntu";
+}
+
+.iphoneimg1 {
+  transform: rotate(20deg);
+  width: 45%;
+position: absolute;
+right: 40%;
+}
+
+#features {
+  padding: 7% 15%;
+  font-family: "Ubuntu";
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-icons{
+  font-size: 3.5em;
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+.feature-icons:hover {
+  color: #ff4c68;
+}
+.feature-p{
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12.5%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+.col-md-6 {
+  padding: 0;
+}
+
+.col-lg-4 {
+  padding: 0;
+  margin: 0;
+}
+
+#cta {
+  background-color: #ff4c68;
+padding: 5% 7%;
+  height: 450px;
+  text-align: center;
+}
+
+.cta-text {
+  font-size: 3rem;
+  color: #fff;
+  padding: 0 10%;
+}
+
+.cta-buttons {
+  text-align: center;
+}
+
+#footer {
+  height: 250px;
+  background-color: #fff;
+  text-align: center;
+}
+
+
+.footer-fab {
+  padding: 75px 10px 15px;
+  font-size: 1.5rem;
+}
+
+.p-copyright {
+  font-family: "Ubuntu";
+  font-size: 1.3rem;
+  font-weight: lighter;
+  color: #8f8f8f;
+}
+
+@media (max-width: 1030px) {
+
+  #title {
+    text-align: center;
+  }
+  .iphoneimg1 {
+    position: static;
+    transform: rotate(0);
+  }
+}
