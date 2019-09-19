@@ -1,10 +1,49 @@
-#title {background-color: #ff4c68;
-color: #fff;
+body {
+  text-align: center;
 }
 
-.title-container {
-  margin-bottom: -25px;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
 }
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  padding-bottom: 2.5rem;
+}
+
+.section-heading {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
 .navbar {
   padding: 1%;
   padding-right: 10%;
@@ -15,40 +54,33 @@ color: #fff;
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 .nav-item {
   padding: 0 18px;
   font-family: "Montserrat";
 }
+
 .nav-link {
-font-size: 1.2rem;
-font-family: "Ubuntu";
-font-weight: lighter;
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+  font-weight: lighter;
 }
 
-h1 {
-  font-family: "Montserrat";
-  font-size: 3.5rem;
-  line-height: 1.5;
-  color: white;
-  padding-bottom: 2.5rem;
-}
-h2 {
-  font-family: "Montserrat";
-  font-size: 3rem;
-  line-height: 1.5;
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
 }
 
-h3 {
-  font-family: "Montserrat";
-  font-size: 1.5rem;
+.title-container {
+  margin-bottom: -25px;
 }
 
 .row {
   padding-left: 1.15rem;
 }
-.container-fluid {
-  padding: 3% 15%;
-}
+
 .col-lg-6 {
   padding: 2.5rem 0.5rem;
 }
@@ -61,40 +93,49 @@ h3 {
 .iphoneimg1 {
   transform: rotate(20deg);
   width: 45%;
-position: absolute;
-right: 40%;
+  position: absolute;
+  right: 40%;
 }
+
+/* Features */
 
 #features {
   padding: 7% 15%;
   font-family: "Ubuntu";
-  background-color: #fff;
   position: relative;
 }
 
+.feature-title {
+  font-size: 1.5rem;
+}
+
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
-.feature-icons{
+.feature-icons {
   font-size: 3.5em;
   margin-bottom: 1rem;
   color: #ef8172;
 }
+
 .feature-icons:hover {
   color: #ff4c68;
 }
-.feature-p{
+
+.feature-p {
   color: #8f8f8f;
 }
 
 /* Testimonials */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -109,7 +150,6 @@ right: 40%;
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -119,16 +159,18 @@ right: 40%;
 }
 
 /* Pricing Section */
-
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
-
 
 .col-md-6 {
   padding: 0;
@@ -139,32 +181,31 @@ right: 40%;
   margin: 0;
 }
 
+/* CTA Section */
 #cta {
-  background-color: #ff4c68;
-padding: 5% 7%;
-  height: 450px;
-  text-align: center;
+  padding: 5% 7%;
 }
 
 .cta-text {
   font-size: 3rem;
   color: #fff;
   padding: 0 10%;
+  line-height: 1.5;
 }
 
 .cta-buttons {
-  text-align: center;
+  margin: 2% 3% 2% 0;
+  font-family: "Ubuntu";
 }
 
+/* Footer Section */
 #footer {
   height: 250px;
   background-color: #fff;
-  text-align: center;
 }
 
-
 .footer-fab {
-  padding: 75px 10px 15px;
+  margin: 75px 10px 15px;
   font-size: 1.5rem;
 }
 
@@ -176,10 +217,10 @@ padding: 5% 7%;
 }
 
 @media (max-width: 1030px) {
-
   #title {
     text-align: center;
   }
+
   .iphoneimg1 {
     position: static;
     transform: rotate(0);
